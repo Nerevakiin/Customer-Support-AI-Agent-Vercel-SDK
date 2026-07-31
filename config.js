@@ -1,5 +1,6 @@
 import OpenAI from 'openai';
 import { createClient } from '@supabase/supabase-js'
+import 'dotenv/config'
 
 
 /** Ensure the OpenAI API key is available and correctly configured */
