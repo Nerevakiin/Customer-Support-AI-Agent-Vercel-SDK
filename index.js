@@ -4,7 +4,7 @@ import {getRagPrompt, combineDocuments} from "./utils.js"
 
 
 /*
-  Challenge: Build a basic retrieval system
+  Build a basic retrieval system
     1. Use OpenAI embeddings to embed the query.
     2. Create the supabase rpc logic to retrieve relevant documents based on the embeddings.
     3. Construct the prompt based on the query and retrieved documents as context.
