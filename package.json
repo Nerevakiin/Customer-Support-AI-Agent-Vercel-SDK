@@ -4,10 +4,11 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^2.0.23",
     "@supabase/supabase-js": "^2.56.1",
     "ai": "^7.0.44",
-    "@ai-sdk/openai": "^2.0.23",
     "dotenv": "^17.4.2",
-    "openai": "^5.16.0"
+    "openai": "^5.16.0",
+    "zod": "^4.4.3"
   }
 }
